@@ -4,7 +4,7 @@ from transformers import pipeline
 
 try:
     # Load the model directly into the application using the transformers pipeline
-    generator = pipeline("text-generation", model="distilbert/distilgpt2")
+    generator = pipeline("text-generation", model="distilgpt2")
     print("LLM pipeline loaded successfully.")
 except Exception as e:
     print(f"Error loading LLam pipeline: {e}")
