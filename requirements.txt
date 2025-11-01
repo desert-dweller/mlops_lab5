@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+requests
+gradio==4.28.3
+huggingface-hub==0.22.2
+ollama
+python-dotenv
